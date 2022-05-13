@@ -109,6 +109,7 @@
 		5732A2BA282EF555000DB77E /* GithupReposApp */ = {
 			isa = PBXGroup;
 			children = (
+				5732A2FA282F0EF2000DB77E /* ReposList */,
 				5732A2EB282EF923000DB77E /* Core */,
 				5732A2BB282EF555000DB77E /* AppDelegate.swift */,
 				5732A2BD282EF555000DB77E /* SceneDelegate.swift */,
@@ -180,6 +181,61 @@
 				5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */,
 			);
 			path = APIClient;
+			sourceTree = "<group>";
+		};
+		5732A2FA282F0EF2000DB77E /* ReposList */ = {
+			isa = PBXGroup;
+			children = (
+				5732A300282F0F55000DB77E /* Request */,
+				5732A2FF282F0F4E000DB77E /* Model */,
+				5732A2FE282F0F3C000DB77E /* DataStore */,
+				5732A2FD282F0F1C000DB77E /* Repository */,
+				5732A2FC282F0F16000DB77E /* Presenter */,
+				5732A2FB282F0F0C000DB77E /* View */,
+			);
+			path = ReposList;
+			sourceTree = "<group>";
+		};
+		5732A2FB282F0F0C000DB77E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5732A2FC282F0F16000DB77E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5732A2FD282F0F1C000DB77E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5732A2FE282F0F3C000DB77E /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		5732A2FF282F0F4E000DB77E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5732A300282F0F55000DB77E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
