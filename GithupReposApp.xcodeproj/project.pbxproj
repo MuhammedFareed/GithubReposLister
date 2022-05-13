@@ -30,6 +30,7 @@
 		5732A314282F1927000DB77E /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A313282F1927000DB77E /* Owner.swift */; };
 		5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */; };
 		5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */; };
+		5732A31A282F1C9C000DB77E /* RepoRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */; };
 		5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		5732A313282F1927000DB77E /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDataStoreProtocol.swift; sourceTree = "<group>"; };
 		5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepoDataStore.swift; sourceTree = "<group>"; };
+		5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepositoryProtocol.swift; sourceTree = "<group>"; };
 		5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFailureError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A31D282F1D1A000DB77E /* Enum */,
+				5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
 				5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */,
 				5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */,
+				5732A31A282F1C9C000DB77E /* RepoRepositoryProtocol.swift in Sources */,
 				5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A312282F191A000DB77E /* Repo.swift in Sources */,
