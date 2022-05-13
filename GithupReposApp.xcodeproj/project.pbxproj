@@ -139,6 +139,7 @@
 			children = (
 				5732A2FA282F0EF2000DB77E /* ReposList */,
 				5732A2EB282EF923000DB77E /* Core */,
+				5732A324282F21DD000DB77E /* Utilities */,
 				5732A2BB282EF555000DB77E /* AppDelegate.swift */,
 				5732A2BD282EF555000DB77E /* SceneDelegate.swift */,
 				5732A2BF282EF555000DB77E /* ViewController.swift */,
@@ -310,6 +311,13 @@
 				5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		5732A324282F21DD000DB77E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
