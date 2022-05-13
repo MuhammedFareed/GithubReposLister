@@ -18,6 +18,8 @@ class ReposListPresenter: ReposListPresenterProtocol {
         view?.showLoading()
         repo?.fetchReposList(onSuccess: { repos in
             self.view?.stopLoading()
+            self.reposData = repos
+            self.createUIModelsFor(repos: self.reposData)
         }, onFailure: { error in
             self.view?.showError(withMessage: "")
         })
@@ -29,5 +31,12 @@ class ReposListPresenter: ReposListPresenterProtocol {
     
     func repoUIModel(at index: Int) -> RepoUIModelProtocol {
         return reposUIModels[index]
+    }
+    
+    private func createUIModelsFor(repos: [Repo]) {
+        reposUIModels = repos.map({ repo in
+            let uiModel = RepoUIModel(repoName: repo.name ?? "", authorName: repo.owner?.login ?? "", authorImageLink: repo.owner?.avatarUrl ?? "")
+            return uiModel
+        })
     }
 }
