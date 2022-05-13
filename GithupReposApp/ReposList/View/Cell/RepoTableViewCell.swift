@@ -26,7 +26,7 @@ class RepoTableViewCell: UITableViewCell {
     
     private func setupStyles() {
         self.selectionStyle = .none
-        authorImageImageView.layer.cornerRadius = authorImageImageView.bounds.height / 2 
+        authorImageImageView.layer.cornerRadius = authorImageImageView.bounds.height / 2
     }
 
 }
