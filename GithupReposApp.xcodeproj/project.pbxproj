@@ -34,6 +34,7 @@
 		5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31B282F1CC0000DB77E /* RepoRepository.swift */; };
 		5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */; };
 		5732A321282F1E9B000DB77E /* ReposListPresenterProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */; };
+		5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A322282F1F45000DB77E /* ReposListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		5732A31B282F1CC0000DB77E /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
 		5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFailureError.swift; sourceTree = "<group>"; };
 		5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenterProtcol.swift; sourceTree = "<group>"; };
+		5732A322282F1F45000DB77E /* ReposListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */,
+				5732A322282F1F45000DB77E /* ReposListPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
+				5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */,
 				5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */,
 				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
