@@ -36,6 +36,7 @@
 		5732A321282F1E9B000DB77E /* ReposListPresenterProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */; };
 		5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A322282F1F45000DB77E /* ReposListPresenter.swift */; };
 		5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */; };
+		5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A329282F2511000DB77E /* StoryboardNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenterProtcol.swift; sourceTree = "<group>"; };
 		5732A322282F1F45000DB77E /* ReposListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenter.swift; sourceTree = "<group>"; };
 		5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+GithupReposApp.swift"; sourceTree = "<group>"; };
+		5732A329282F2511000DB77E /* StoryboardNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +320,7 @@
 		5732A324282F21DD000DB77E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5732A328282F24FA000DB77E /* Constants */,
 				5732A325282F21E8000DB77E /* Extensions */,
 			);
 			path = Utilities;
@@ -329,6 +332,14 @@
 				5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5732A328282F24FA000DB77E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5732A329282F2511000DB77E /* StoryboardNames.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,6 +494,7 @@
 				5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */,
 				5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */,
 				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
+				5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);
