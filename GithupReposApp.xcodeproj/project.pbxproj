@@ -25,6 +25,7 @@
 		5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A304282F1261000DB77E /* RepoTableViewCell.swift */; };
 		5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A308282F1459000DB77E /* RepoUIModel.swift */; };
 		5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */; };
+		5732A310282F183F000DB77E /* ReposRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30F282F183F000DB77E /* ReposRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		5732A304282F1261000DB77E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		5732A308282F1459000DB77E /* RepoUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoUIModel.swift; sourceTree = "<group>"; };
 		5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReposListViewController+TableView.swift"; sourceTree = "<group>"; };
+		5732A30F282F183F000DB77E /* ReposRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 		5732A300282F0F55000DB77E /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				5732A30F282F183F000DB77E /* ReposRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
+				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
