@@ -13,8 +13,14 @@ class ReposListPresenter: ReposListPresenterProtocol {
     
     private var reposData: [Repo] = []
     private var reposUIModels: [RepoUIModelProtocol] = []
+    
     func fetchReposList() {
-        
+        view?.showLoading()
+        repo?.fetchReposList(onSuccess: { repos in
+            self.view?.stopLoading()
+        }, onFailure: { error in
+            self.view?.showError(withMessage: "")
+        })
     }
     
     func numberOfRepos() -> Int {
