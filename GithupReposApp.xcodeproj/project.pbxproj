@@ -31,6 +31,7 @@
 		5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */; };
 		5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */; };
 		5732A31A282F1C9C000DB77E /* RepoRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */; };
+		5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31B282F1CC0000DB77E /* RepoRepository.swift */; };
 		5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDataStoreProtocol.swift; sourceTree = "<group>"; };
 		5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepoDataStore.swift; sourceTree = "<group>"; };
 		5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5732A31B282F1CC0000DB77E /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
 		5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFailureError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,6 +242,7 @@
 			children = (
 				5732A31D282F1D1A000DB77E /* Enum */,
 				5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */,
+				5732A31B282F1CC0000DB77E /* RepoRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
+				5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */,
 				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 			);
