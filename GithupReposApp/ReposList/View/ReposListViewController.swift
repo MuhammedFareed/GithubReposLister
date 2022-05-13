@@ -8,6 +8,7 @@
 import UIKit
 
 protocol ReposListView: UIViewController {
+    var preseneter: ReposListPresenterProtocol? { get set }
     func reloadListTableView()
     func showLoading()
     func stopLoading()
@@ -18,6 +19,7 @@ class ReposListViewController: UIViewController {
 
     @IBOutlet private weak var listTableView: UITableView!
     
+    internal var preseneter: ReposListPresenterProtocol?
     private var loadingView: UIView?
     private var errorView: UIView?
     
@@ -38,7 +40,9 @@ class ReposListViewController: UIViewController {
 
 extension ReposListViewController: ReposListView {
     func reloadListTableView() {
-        
+        DispatchQueue.main.async {
+            self.listTableView.reloadData()
+        }
     }
     
     func showLoading() {
