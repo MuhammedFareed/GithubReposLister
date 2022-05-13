@@ -26,6 +26,7 @@
 		5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A308282F1459000DB77E /* RepoUIModel.swift */; };
 		5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */; };
 		5732A310282F183F000DB77E /* ReposRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30F282F183F000DB77E /* ReposRequest.swift */; };
+		5732A312282F191A000DB77E /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A311282F191A000DB77E /* Repo.swift */; };
 		5732A314282F1927000DB77E /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A313282F1927000DB77E /* Owner.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		5732A308282F1459000DB77E /* RepoUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoUIModel.swift; sourceTree = "<group>"; };
 		5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReposListViewController+TableView.swift"; sourceTree = "<group>"; };
 		5732A30F282F183F000DB77E /* ReposRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposRequest.swift; sourceTree = "<group>"; };
+		5732A311282F191A000DB77E /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		5732A313282F1927000DB77E /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A306282F13BF000DB77E /* UIModels */,
+				5732A311282F191A000DB77E /* Repo.swift */,
 				5732A313282F1927000DB77E /* Owner.swift */,
 			);
 			path = Model;
@@ -418,6 +421,7 @@
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
 				5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
+				5732A312282F191A000DB77E /* Repo.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
 				5732A314282F1927000DB77E /* Owner.swift in Sources */,
 				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
