@@ -23,6 +23,18 @@ class ReposListViewController: UIViewController {
     private var loadingView: UIView?
     private var errorView: UIView?
     
+    static func create(withPresenter presenter: ReposListPresenterProtocol) -> ReposListViewController {
+        let storyboard = UIStoryboard(name: StoryboardNames.mainStoryboard.rawValue, bundle: nil)
+        guard let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: self)) as? ReposListViewController else {
+            fatalError()
+            return ReposListViewController()
+        }
+        presenter.view = viewController
+        viewController.preseneter = presenter
+        
+        return viewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
