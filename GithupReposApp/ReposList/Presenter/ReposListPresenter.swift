@@ -30,7 +30,7 @@ class ReposListPresenter: ReposListPresenterProtocol {
     }
     
     func repoUIModel(at index: Int) -> RepoUIModelProtocol {
-        return reposUIModels[index]
+        return reposUIModels[safe: index] ?? RepoUIModel(repoName: "", authorName: "", authorImageLink: "")
     }
     
     private func createUIModelsFor(repos: [Repo]) {
