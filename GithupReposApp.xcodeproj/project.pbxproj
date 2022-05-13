@@ -21,6 +21,7 @@
 		5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */; };
 		5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F6282EFBD3000DB77E /* NetworkError.swift */; };
 		5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */; };
+		5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A304282F1261000DB77E /* RepoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		5732A2F6282EFBD3000DB77E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposAPIClient.swift; sourceTree = "<group>"; };
+		5732A304282F1261000DB77E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 		5732A2FB282F0F0C000DB77E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5732A303282F123B000DB77E /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -236,6 +239,14 @@
 			children = (
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		5732A303282F123B000DB77E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5732A304282F1261000DB77E /* RepoTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +382,7 @@
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
 				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
+				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
