@@ -17,6 +17,7 @@
 		5732A2DD282EF557000DB77E /* GithupReposAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2DC282EF557000DB77E /* GithupReposAppUITests.swift */; };
 		5732A2DF282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */; };
 		5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2EF282EF95A000DB77E /* HTTPMethods.swift */; };
+		5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5732A2DC282EF557000DB77E /* GithupReposAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithupReposAppUITests.swift; sourceTree = "<group>"; };
 		5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithupReposAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5732A2EF282EF95A000DB77E /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		5732A2ED282EF931000DB77E /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
+				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
