@@ -20,6 +20,7 @@
 		5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */; };
 		5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */; };
 		5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F6282EFBD3000DB77E /* NetworkError.swift */; };
+		5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
 		5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		5732A2F6282EFBD3000DB77E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */,
+				5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
+				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
