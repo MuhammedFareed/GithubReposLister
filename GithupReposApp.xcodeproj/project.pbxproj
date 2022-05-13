@@ -24,6 +24,7 @@
 		5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A301282F1030000DB77E /* ReposListViewController.swift */; };
 		5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A304282F1261000DB77E /* RepoTableViewCell.swift */; };
 		5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A308282F1459000DB77E /* RepoUIModel.swift */; };
+		5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		5732A301282F1030000DB77E /* ReposListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListViewController.swift; sourceTree = "<group>"; };
 		5732A304282F1261000DB77E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		5732A308282F1459000DB77E /* RepoUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoUIModel.swift; sourceTree = "<group>"; };
+		5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReposListViewController+TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 		5732A2FB282F0F0C000DB77E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5732A30A282F159F000DB77E /* Extensions */,
 				5732A303282F123B000DB77E /* Cell */,
 				5732A301282F1030000DB77E /* ReposListViewController.swift */,
 			);
@@ -261,6 +264,14 @@
 				5732A308282F1459000DB77E /* RepoUIModel.swift */,
 			);
 			path = UIModels;
+			sourceTree = "<group>";
+		};
+		5732A30A282F159F000DB77E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +413,7 @@
 				5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
+				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
