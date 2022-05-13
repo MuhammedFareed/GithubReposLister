@@ -30,6 +30,7 @@
 		5732A314282F1927000DB77E /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A313282F1927000DB77E /* Owner.swift */; };
 		5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */; };
 		5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */; };
+		5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		5732A313282F1927000DB77E /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 		5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDataStoreProtocol.swift; sourceTree = "<group>"; };
 		5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepoDataStore.swift; sourceTree = "<group>"; };
+		5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFailureError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 		5732A2FD282F0F1C000DB77E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				5732A31D282F1D1A000DB77E /* Enum */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -287,6 +290,14 @@
 				5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5732A31D282F1D1A000DB77E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
+				5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */,
 				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
 				5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */,
 				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
