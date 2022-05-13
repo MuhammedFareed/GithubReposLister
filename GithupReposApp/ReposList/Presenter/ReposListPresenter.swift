@@ -11,15 +11,17 @@ class ReposListPresenter: ReposListPresenterProtocol {
     var view: ReposListView?
     var repo: RepoRepositoryProtocol?
     
+    private var reposData: [Repo] = []
+    private var reposUIModels: [RepoUIModelProtocol] = []
     func fetchReposList() {
         
     }
     
     func numberOfRepos() -> Int {
-        return 0
+        return reposData.count
     }
     
-    func repoUIModel(at index: Int) -> RepoUIModel {
-        return RepoUIModel(repoName: "", authorName: "", authorImageLink: "")
+    func repoUIModel(at index: Int) -> RepoUIModelProtocol {
+        return reposUIModels[index]
     }
 }

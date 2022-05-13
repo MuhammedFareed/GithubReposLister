@@ -12,5 +12,5 @@ protocol ReposListPresenterProtocol: AnyObject {
     var repo: RepoRepositoryProtocol? { get set }
     func fetchReposList()
     func numberOfRepos() -> Int
-    func repoUIModel(at index: Int) -> RepoUIModel
+    func repoUIModel(at index: Int) -> RepoUIModelProtocol
 }
