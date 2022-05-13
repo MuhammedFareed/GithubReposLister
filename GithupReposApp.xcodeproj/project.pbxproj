@@ -23,6 +23,7 @@
 		5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */; };
 		5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A301282F1030000DB77E /* ReposListViewController.swift */; };
 		5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A304282F1261000DB77E /* RepoTableViewCell.swift */; };
+		5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A308282F1459000DB77E /* RepoUIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposAPIClient.swift; sourceTree = "<group>"; };
 		5732A301282F1030000DB77E /* ReposListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListViewController.swift; sourceTree = "<group>"; };
 		5732A304282F1261000DB77E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		5732A308282F1459000DB77E /* RepoUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoUIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 		5732A2FF282F0F4E000DB77E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5732A306282F13BF000DB77E /* UIModels */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +253,14 @@
 				5732A304282F1261000DB77E /* RepoTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		5732A306282F13BF000DB77E /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				5732A308282F1459000DB77E /* RepoUIModel.swift */,
+			);
+			path = UIModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +399,7 @@
 				5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */,
 				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
+				5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
