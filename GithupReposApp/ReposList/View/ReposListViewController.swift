@@ -23,6 +23,14 @@ class ReposListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupListTableView()
+    }
+    
+    private func setupListTableView() {
+        listTableView.delegate = self
+        listTableView.dataSource = self
+        listTableView.tableFooterView = UIView()
     }
     
     
