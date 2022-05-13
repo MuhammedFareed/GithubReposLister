@@ -99,6 +99,7 @@
 		5732A2BA282EF555000DB77E /* GithupReposApp */ = {
 			isa = PBXGroup;
 			children = (
+				5732A2EB282EF923000DB77E /* Core */,
 				5732A2BB282EF555000DB77E /* AppDelegate.swift */,
 				5732A2BD282EF555000DB77E /* SceneDelegate.swift */,
 				5732A2BF282EF555000DB77E /* ViewController.swift */,
@@ -125,6 +126,45 @@
 				5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */,
 			);
 			path = GithupReposAppUITests;
+			sourceTree = "<group>";
+		};
+		5732A2EB282EF923000DB77E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5732A2EC282EF929000DB77E /* NetworkLayer */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5732A2EC282EF929000DB77E /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5732A2EE282EF949000DB77E /* Enums */,
+				5732A2ED282EF931000DB77E /* Request */,
+				5732A2F1282EFA20000DB77E /* APIClient */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5732A2ED282EF931000DB77E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		5732A2EE282EF949000DB77E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5732A2F1282EFA20000DB77E /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
