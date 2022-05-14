@@ -13,9 +13,6 @@
 		5732A2C3282EF555000DB77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5732A2C1282EF555000DB77E /* Main.storyboard */; };
 		5732A2C5282EF556000DB77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5732A2C4282EF556000DB77E /* Assets.xcassets */; };
 		5732A2C8282EF557000DB77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5732A2C6282EF557000DB77E /* LaunchScreen.storyboard */; };
-		5732A2D3282EF557000DB77E /* GithupReposAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2D2282EF557000DB77E /* GithupReposAppTests.swift */; };
-		5732A2DD282EF557000DB77E /* GithupReposAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2DC282EF557000DB77E /* GithupReposAppUITests.swift */; };
-		5732A2DF282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */; };
 		5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2EF282EF95A000DB77E /* HTTPMethods.swift */; };
 		5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */; };
 		5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */; };
@@ -74,10 +71,7 @@
 		5732A2C7282EF557000DB77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5732A2C9282EF557000DB77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5732A2CE282EF557000DB77E /* GithupReposAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithupReposAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5732A2D2282EF557000DB77E /* GithupReposAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithupReposAppTests.swift; sourceTree = "<group>"; };
 		5732A2D8282EF557000DB77E /* GithupReposAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithupReposAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5732A2DC282EF557000DB77E /* GithupReposAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithupReposAppUITests.swift; sourceTree = "<group>"; };
-		5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithupReposAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5732A2EF282EF95A000DB77E /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		5732A2F2282EFAD7000DB77E /* APIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
 		5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
@@ -183,8 +177,6 @@
 		5732A2DB282EF557000DB77E /* GithupReposAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5732A2DC282EF557000DB77E /* GithupReposAppUITests.swift */,
-				5732A2DE282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift */,
 			);
 			path = GithupReposAppUITests;
 			sourceTree = "<group>";
@@ -592,8 +584,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5732A2DD282EF557000DB77E /* GithupReposAppUITests.swift in Sources */,
-				5732A2DF282EF557000DB77E /* GithupReposAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
