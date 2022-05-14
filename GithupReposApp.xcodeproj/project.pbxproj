@@ -37,6 +37,7 @@
 		5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A322282F1F45000DB77E /* ReposListPresenter.swift */; };
 		5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */; };
 		5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A329282F2511000DB77E /* StoryboardNames.swift */; };
+		5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		5732A322282F1F45000DB77E /* ReposListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenter.swift; sourceTree = "<group>"; };
 		5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+GithupReposApp.swift"; sourceTree = "<group>"; };
 		5732A329282F2511000DB77E /* StoryboardNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNames.swift; sourceTree = "<group>"; };
+		5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		5732A2EB282EF923000DB77E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5732A32B282F28C1000DB77E /* Navigation */,
 				5732A2EC282EF929000DB77E /* NetworkLayer */,
 			);
 			path = Core;
@@ -342,6 +345,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		5732A32B282F28C1000DB77E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -495,6 +506,7 @@
 				5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */,
 				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
 				5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */,
+				5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);
