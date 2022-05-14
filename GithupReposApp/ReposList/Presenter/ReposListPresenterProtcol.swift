@@ -17,4 +17,5 @@ protocol ReposListPresenterProtocol: AnyObject {
     func repoUIModel(at index: Int) -> RepoUIModelProtocol
     func showDetailsOfRepo(at index: Int)
     func searchForRepo(withSearchToken token: String)
+    func cancelSearch()
 }

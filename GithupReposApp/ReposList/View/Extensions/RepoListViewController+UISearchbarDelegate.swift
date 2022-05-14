@@ -10,6 +10,7 @@ import UIKit
 extension ReposListViewController: UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         searchBar.endEditing(true)
+        preseneter?.cancelSearch()
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
