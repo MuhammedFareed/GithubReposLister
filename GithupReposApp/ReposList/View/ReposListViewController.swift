@@ -27,6 +27,7 @@ class ReposListViewController: UIViewController {
         super.viewDidLoad()
         
         setupListTableView()
+        preseneter?.fetchReposList()
     }
     
     private func setupListTableView() {

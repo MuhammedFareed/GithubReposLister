@@ -22,7 +22,8 @@ class ReposListPresenter: ReposListPresenterProtocol {
             self.createUIModelsFor(repos: self.reposData)
             self.view?.reloadListTableView()
         }, onFailure: { error in
-            self.view?.showError(withMessage: "")
+            self.view?.stopLoading()
+            self.view?.showError(withMessage: "something went wrong")
         })
     }
     
