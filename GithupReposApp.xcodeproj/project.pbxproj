@@ -45,6 +45,8 @@
 		5732A33F282FAEDB000DB77E /* ReposSearcherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A33E282FAEDB000DB77E /* ReposSearcherProtocol.swift */; };
 		5732A341282FAF39000DB77E /* ReposSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A340282FAF39000DB77E /* ReposSearcher.swift */; };
 		5732A351282FBC6E000DB77E /* ReposSearcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A350282FBC6E000DB77E /* ReposSearcherTests.swift */; };
+		5732A355282FC14F000DB77E /* StubbedReposAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A354282FC14F000DB77E /* StubbedReposAPIClient.swift */; };
+		5732A358282FC25F000DB77E /* RemoteReposDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A357282FC25F000DB77E /* RemoteReposDataStoreTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		5732A33E282FAEDB000DB77E /* ReposSearcherProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposSearcherProtocol.swift; sourceTree = "<group>"; };
 		5732A340282FAF39000DB77E /* ReposSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposSearcher.swift; sourceTree = "<group>"; };
 		5732A350282FBC6E000DB77E /* ReposSearcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposSearcherTests.swift; sourceTree = "<group>"; };
+		5732A354282FC14F000DB77E /* StubbedReposAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubbedReposAPIClient.swift; sourceTree = "<group>"; };
+		5732A357282FC25F000DB77E /* RemoteReposDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteReposDataStoreTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		5732A2D1282EF557000DB77E /* GithupReposAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				5732A352282FC134000DB77E /* TestDoubles */,
 				5732A34D282FBC4D000DB77E /* ReposList */,
 			);
 			path = GithupReposAppTests;
@@ -417,6 +422,7 @@
 		5732A34D282FBC4D000DB77E /* ReposList */ = {
 			isa = PBXGroup;
 			children = (
+				5732A356282FC245000DB77E /* DataStore */,
 				5732A34E282FBC53000DB77E /* Helpers */,
 			);
 			path = ReposList;
@@ -436,6 +442,30 @@
 				5732A350282FBC6E000DB77E /* ReposSearcherTests.swift */,
 			);
 			path = Searcher;
+			sourceTree = "<group>";
+		};
+		5732A352282FC134000DB77E /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				5732A353282FC139000DB77E /* Stubs */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		5732A353282FC139000DB77E /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				5732A354282FC14F000DB77E /* StubbedReposAPIClient.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		5732A356282FC245000DB77E /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				5732A357282FC25F000DB77E /* RemoteReposDataStoreTests.swift */,
+			);
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -609,6 +639,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5732A351282FBC6E000DB77E /* ReposSearcherTests.swift in Sources */,
+				5732A358282FC25F000DB77E /* RemoteReposDataStoreTests.swift in Sources */,
+				5732A355282FC14F000DB77E /* StubbedReposAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
