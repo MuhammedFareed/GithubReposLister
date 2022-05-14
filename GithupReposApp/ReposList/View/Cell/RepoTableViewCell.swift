@@ -28,5 +28,11 @@ class RepoTableViewCell: UITableViewCell {
         self.selectionStyle = .none
         authorImageImageView.layer.cornerRadius = authorImageImageView.bounds.height / 2
     }
+    
+    private func setupCell(withUIModel uiModel: RepoUIModel) {
+        repoNameLabel.text = uiModel.repoName
+        repoAuthorNameLabel.text = uiModel.authorName
+        authorImageImageView.downloadImage(from: uiModel.authorImageLink)
+    }
 
 }
