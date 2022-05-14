@@ -25,6 +25,7 @@ class RepoDetailsViewController: UIViewController {
     
     private func fillData() {
         titleLabel.text = repoUIModel?.repoName
+        descriptionLabel.text = repoUIModel?.description
     }
 }
 

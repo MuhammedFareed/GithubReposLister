@@ -43,7 +43,7 @@ class ReposListPresenter: ReposListPresenterProtocol {
     
     private func createUIModelsFor(repos: [Repo]) {
         reposUIModels = repos.map({ repo in
-            let uiModel = RepoUIModel(repoName: repo.name ?? "", authorName: repo.owner?.login ?? "", authorImageLink: repo.owner?.avatarUrl ?? "", description: "")
+            let uiModel = RepoUIModel(repoName: repo.name ?? "", authorName: repo.owner?.login ?? "", authorImageLink: repo.owner?.avatarUrl ?? "", description: repo.description ?? "")
             return uiModel
         })
     }
