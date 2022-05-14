@@ -8,7 +8,7 @@
 import Foundation
 
 class MoviesAPIClient: APIClient {
-    var baseURL: String = "https://api.github.com.com"
+    var baseURL: String = "https://api.github.com"
     var session: URLSession
     
     init(withSession session: URLSession = URLSession.shared) {
