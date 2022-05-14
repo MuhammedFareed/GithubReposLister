@@ -17,10 +17,17 @@ class RepoDetailsViewController: UIViewController {
     
     var repoUIModel: RepoUIModelProtocol?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        fillData()
     }
-
+    
+    private func fillData() {
+        titleLabel.text = repoUIModel?.repoName
+    }
 }
 
 extension RepoDetailsViewController: RepoDetailsViewProtocol { }
+
+extension RepoDetailsViewController: StoryboardaLoadableProtocol { }
