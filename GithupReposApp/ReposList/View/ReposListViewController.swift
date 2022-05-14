@@ -22,18 +22,28 @@ class ReposListViewController: UIViewController {
     internal var preseneter: ReposListPresenterProtocol?
     private var loadingView: UIView?
     private var errorView: UIView?
+    private var searchBar = UISearchBar()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupListTableView()
+        setupSearchBar()
         preseneter?.fetchReposList()
     }
     
     private func setupListTableView() {
         listTableView.delegate = self
         listTableView.dataSource = self
+        listTableView.keyboardDismissMode = .onDrag
         listTableView.tableFooterView = UIView()
+        
+    }
+    
+    private func setupSearchBar() {
+        searchBar.sizeToFit()
+        searchBar.showsCancelButton = true
+        navigationItem.titleView = searchBar
     }
     
     
