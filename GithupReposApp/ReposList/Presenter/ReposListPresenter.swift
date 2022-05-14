@@ -11,10 +11,12 @@ import UIKit
 class ReposListPresenter: ReposListPresenterProtocol {
     var view: ReposListView?
     var repo: RepoRepositoryProtocol?
+    var searcher: ReposSearcherProtocol?
     weak var coordinator: MainCoordinator?
     
     private var reposData: [Repo] = []
     private var reposUIModels: [RepoUIModelProtocol] = []
+    private var filteredReposUIModels: [RepoUIModelProtocol] = []
     
     func fetchReposList() {
         view?.showLoading()
@@ -30,15 +32,29 @@ class ReposListPresenter: ReposListPresenterProtocol {
     }
     
     func numberOfRepos() -> Int {
-        return reposData.count
+        return filteredReposUIModels.count
     }
     
     func repoUIModel(at index: Int) -> RepoUIModelProtocol {
-        return reposUIModels[safe: index] ?? RepoUIModel(repoName: "", authorName: "", authorImageLink: "", description: "")
+        return filteredReposUIModels[safe: index] ?? RepoUIModel(repoName: "", authorName: "", authorImageLink: "", description: "")
     }
     
     func showDetailsOfRepo(at index: Int) {
         coordinator?.showRepoDetails(withUIModel: repoUIModel(at: index))
+    }
+    
+    func searchForRepo(withSearchToken token: String) {
+        guard let searcher = searcher else {
+            return
+        }
+        let reposResult = searcher.searchByName(withSearchToken: token, inRepos: reposData)
+        createUIModelsFor(repos: reposResult)
+        view?.reloadListTableView()
+    }
+    
+    func cancelSearch() {
+        createUIModelsFor(repos: reposData)
+        view?.reloadListTableView()
     }
     
     private func createUIModelsFor(repos: [Repo]) {
@@ -46,5 +62,6 @@ class ReposListPresenter: ReposListPresenterProtocol {
             let uiModel = RepoUIModel(repoName: repo.name ?? "", authorName: repo.owner?.login ?? "", authorImageLink: repo.owner?.avatarUrl ?? "", description: repo.description ?? "")
             return uiModel
         })
+        filteredReposUIModels = reposUIModels
     }
 }

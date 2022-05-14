@@ -42,6 +42,9 @@
 		5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */; };
 		5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */; };
 		5732A338282F3326000DB77E /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A337282F3326000DB77E /* RepoDetailsViewController.swift */; };
+		5732A33B282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */; };
+		5732A33F282FAEDB000DB77E /* ReposSearcherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A33E282FAEDB000DB77E /* ReposSearcherProtocol.swift */; };
+		5732A341282FAF39000DB77E /* ReposSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A340282FAF39000DB77E /* ReposSearcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +104,9 @@
 		5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardaLoadableProtocol.swift; sourceTree = "<group>"; };
 		5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+GithupReposApp.swift"; sourceTree = "<group>"; };
 		5732A337282F3326000DB77E /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepoListViewController+UISearchbarDelegate.swift"; sourceTree = "<group>"; };
+		5732A33E282FAEDB000DB77E /* ReposSearcherProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposSearcherProtocol.swift; sourceTree = "<group>"; };
+		5732A340282FAF39000DB77E /* ReposSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposSearcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +237,7 @@
 		5732A2FA282F0EF2000DB77E /* ReposList */ = {
 			isa = PBXGroup;
 			children = (
+				5732A33C282FAEA7000DB77E /* Helpers */,
 				5732A300282F0F55000DB77E /* Request */,
 				5732A2FF282F0F4E000DB77E /* Model */,
 				5732A2FE282F0F3C000DB77E /* DataStore */,
@@ -317,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */,
+				5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +395,23 @@
 				5732A337282F3326000DB77E /* RepoDetailsViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5732A33C282FAEA7000DB77E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5732A33D282FAEB5000DB77E /* Searcher */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5732A33D282FAEB5000DB77E /* Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				5732A33E282FAEDB000DB77E /* ReposSearcherProtocol.swift */,
+				5732A340282FAF39000DB77E /* ReposSearcher.swift */,
+			);
+			path = Searcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,8 +549,10 @@
 				5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */,
 				5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */,
 				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
+				5732A341282FAF39000DB77E /* ReposSearcher.swift in Sources */,
 				5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */,
 				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
+				5732A33F282FAEDB000DB77E /* ReposSearcherProtocol.swift in Sources */,
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
 				5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */,
 				5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */,
@@ -547,6 +574,7 @@
 				5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */,
 				5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */,
 				5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */,
+				5732A33B282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);

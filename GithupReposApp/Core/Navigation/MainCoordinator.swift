@@ -18,7 +18,9 @@ class MainCoordinator: Coordinator {
     func start() {
         let repoRepository = RepoRepository()
         let repoListPresenter = ReposListPresenter()
+        let repoSearcher = ReposSearcher()
         repoListPresenter.repo = repoRepository
+        repoListPresenter.searcher = repoSearcher
         let repoListViewController = ReposListViewController.instantiate(fromStoryBoard: StoryboardNames.mainStoryboard)
         repoListPresenter.view = repoListViewController
         repoListViewController.preseneter = repoListPresenter
