@@ -9,5 +9,6 @@ import Foundation
 
 struct Repo: Codable {
     var name: String?
+    var description: String?
     var owner: Owner?
 }
