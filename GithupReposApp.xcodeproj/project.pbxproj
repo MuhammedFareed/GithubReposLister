@@ -21,6 +21,26 @@
 		5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */; };
 		5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F6282EFBD3000DB77E /* NetworkError.swift */; };
 		5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */; };
+		5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A301282F1030000DB77E /* ReposListViewController.swift */; };
+		5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A304282F1261000DB77E /* RepoTableViewCell.swift */; };
+		5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A308282F1459000DB77E /* RepoUIModel.swift */; };
+		5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */; };
+		5732A310282F183F000DB77E /* ReposRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A30F282F183F000DB77E /* ReposRequest.swift */; };
+		5732A312282F191A000DB77E /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A311282F191A000DB77E /* Repo.swift */; };
+		5732A314282F1927000DB77E /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A313282F1927000DB77E /* Owner.swift */; };
+		5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */; };
+		5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */; };
+		5732A31A282F1C9C000DB77E /* RepoRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */; };
+		5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31B282F1CC0000DB77E /* RepoRepository.swift */; };
+		5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */; };
+		5732A321282F1E9B000DB77E /* ReposListPresenterProtcol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */; };
+		5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A322282F1F45000DB77E /* ReposListPresenter.swift */; };
+		5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */; };
+		5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A329282F2511000DB77E /* StoryboardNames.swift */; };
+		5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */; };
+		5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32E282F295A000DB77E /* MainCoordinator.swift */; };
+		5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */; };
+		5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +79,26 @@
 		5732A2F4282EFB49000DB77E /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
 		5732A2F6282EFBD3000DB77E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposAPIClient.swift; sourceTree = "<group>"; };
+		5732A301282F1030000DB77E /* ReposListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListViewController.swift; sourceTree = "<group>"; };
+		5732A304282F1261000DB77E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		5732A308282F1459000DB77E /* RepoUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoUIModel.swift; sourceTree = "<group>"; };
+		5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReposListViewController+TableView.swift"; sourceTree = "<group>"; };
+		5732A30F282F183F000DB77E /* ReposRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposRequest.swift; sourceTree = "<group>"; };
+		5732A311282F191A000DB77E /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		5732A313282F1927000DB77E /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDataStoreProtocol.swift; sourceTree = "<group>"; };
+		5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteRepoDataStore.swift; sourceTree = "<group>"; };
+		5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5732A31B282F1CC0000DB77E /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
+		5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryFailureError.swift; sourceTree = "<group>"; };
+		5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenterProtcol.swift; sourceTree = "<group>"; };
+		5732A322282F1F45000DB77E /* ReposListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposListPresenter.swift; sourceTree = "<group>"; };
+		5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+GithupReposApp.swift"; sourceTree = "<group>"; };
+		5732A329282F2511000DB77E /* StoryboardNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNames.swift; sourceTree = "<group>"; };
+		5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5732A32E282F295A000DB77E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardaLoadableProtocol.swift; sourceTree = "<group>"; };
+		5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+GithupReposApp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +149,9 @@
 		5732A2BA282EF555000DB77E /* GithupReposApp */ = {
 			isa = PBXGroup;
 			children = (
+				5732A2FA282F0EF2000DB77E /* ReposList */,
 				5732A2EB282EF923000DB77E /* Core */,
+				5732A324282F21DD000DB77E /* Utilities */,
 				5732A2BB282EF555000DB77E /* AppDelegate.swift */,
 				5732A2BD282EF555000DB77E /* SceneDelegate.swift */,
 				5732A2BF282EF555000DB77E /* ViewController.swift */,
@@ -141,6 +183,7 @@
 		5732A2EB282EF923000DB77E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5732A32B282F28C1000DB77E /* Navigation */,
 				5732A2EC282EF929000DB77E /* NetworkLayer */,
 			);
 			path = Core;
@@ -180,6 +223,151 @@
 				5732A2F8282F0D4B000DB77E /* ReposAPIClient.swift */,
 			);
 			path = APIClient;
+			sourceTree = "<group>";
+		};
+		5732A2FA282F0EF2000DB77E /* ReposList */ = {
+			isa = PBXGroup;
+			children = (
+				5732A300282F0F55000DB77E /* Request */,
+				5732A2FF282F0F4E000DB77E /* Model */,
+				5732A2FE282F0F3C000DB77E /* DataStore */,
+				5732A2FD282F0F1C000DB77E /* Repository */,
+				5732A2FC282F0F16000DB77E /* Presenter */,
+				5732A2FB282F0F0C000DB77E /* View */,
+			);
+			path = ReposList;
+			sourceTree = "<group>";
+		};
+		5732A2FB282F0F0C000DB77E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5732A30A282F159F000DB77E /* Extensions */,
+				5732A303282F123B000DB77E /* Cell */,
+				5732A301282F1030000DB77E /* ReposListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5732A2FC282F0F16000DB77E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5732A320282F1E9B000DB77E /* ReposListPresenterProtcol.swift */,
+				5732A322282F1F45000DB77E /* ReposListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5732A2FD282F0F1C000DB77E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5732A31D282F1D1A000DB77E /* Enum */,
+				5732A319282F1C9C000DB77E /* RepoRepositoryProtocol.swift */,
+				5732A31B282F1CC0000DB77E /* RepoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5732A2FE282F0F3C000DB77E /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				5732A315282F1A62000DB77E /* RepoDataStoreProtocol.swift */,
+				5732A317282F1AA3000DB77E /* RemoteRepoDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		5732A2FF282F0F4E000DB77E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5732A306282F13BF000DB77E /* UIModels */,
+				5732A311282F191A000DB77E /* Repo.swift */,
+				5732A313282F1927000DB77E /* Owner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5732A300282F0F55000DB77E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				5732A30F282F183F000DB77E /* ReposRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		5732A303282F123B000DB77E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5732A304282F1261000DB77E /* RepoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5732A306282F13BF000DB77E /* UIModels */ = {
+			isa = PBXGroup;
+			children = (
+				5732A308282F1459000DB77E /* RepoUIModel.swift */,
+			);
+			path = UIModels;
+			sourceTree = "<group>";
+		};
+		5732A30A282F159F000DB77E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5732A31D282F1D1A000DB77E /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5732A31E282F1D2D000DB77E /* RepositoryFailureError.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		5732A324282F21DD000DB77E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5732A330282F29CC000DB77E /* Views */,
+				5732A328282F24FA000DB77E /* Constants */,
+				5732A325282F21E8000DB77E /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5732A325282F21E8000DB77E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */,
+				5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5732A328282F24FA000DB77E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				5732A329282F2511000DB77E /* StoryboardNames.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		5732A32B282F28C1000DB77E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */,
+				5732A32E282F295A000DB77E /* MainCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5732A330282F29CC000DB77E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,13 +502,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
+				5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */,
+				5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */,
 				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
+				5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */,
+				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
 				5732A2F7282EFBD3000DB77E /* NetworkError.swift in Sources */,
+				5732A318282F1AA3000DB77E /* RemoteRepoDataStore.swift in Sources */,
+				5732A316282F1A62000DB77E /* RepoDataStoreProtocol.swift in Sources */,
+				5732A31A282F1C9C000DB77E /* RepoRepositoryProtocol.swift in Sources */,
+				5732A309282F1459000DB77E /* RepoUIModel.swift in Sources */,
 				5732A2F3282EFAD7000DB77E /* APIRequestProtocol.swift in Sources */,
+				5732A312282F191A000DB77E /* Repo.swift in Sources */,
 				5732A2C0282EF555000DB77E /* ViewController.swift in Sources */,
+				5732A321282F1E9B000DB77E /* ReposListPresenterProtcol.swift in Sources */,
+				5732A314282F1927000DB77E /* Owner.swift in Sources */,
+				5732A30C282F15BF000DB77E /* ReposListViewController+TableView.swift in Sources */,
 				5732A2BC282EF555000DB77E /* AppDelegate.swift in Sources */,
 				5732A2BE282EF555000DB77E /* SceneDelegate.swift in Sources */,
+				5732A323282F1F45000DB77E /* ReposListPresenter.swift in Sources */,
+				5732A31C282F1CC0000DB77E /* RepoRepository.swift in Sources */,
+				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
+				5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */,
+				5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */,
+				5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */,
+				5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
+				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
