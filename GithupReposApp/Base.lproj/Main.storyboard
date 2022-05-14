@@ -123,6 +123,56 @@
             </objects>
             <point key="canvasLocation" x="128" y="-9"/>
         </scene>
+        <!--Repo Details View Controller-->
+        <scene sceneID="QPl-lN-lUR">
+            <objects>
+                <viewController storyboardIdentifier="RepoDetailsViewController" id="o1v-lh-cAh" customClass="RepoDetailsViewController" customModule="GithupReposApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3o9-d4-GEB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="liq-WP-Ifg">
+                                <rect key="frame" x="16" y="92" width="382" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENR-fb-tVV">
+                                <rect key="frame" x="16" y="153" width="382" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2A9-6c-ErA">
+                                <rect key="frame" x="16" y="186" width="382" height="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f1b-rL-HpR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2A9-6c-ErA" firstAttribute="leading" secondItem="f1b-rL-HpR" secondAttribute="leading" constant="16" id="Fc5-is-eug"/>
+                            <constraint firstItem="ENR-fb-tVV" firstAttribute="top" secondItem="liq-WP-Ifg" secondAttribute="bottom" constant="24" id="Fwj-Ft-yuy"/>
+                            <constraint firstItem="liq-WP-Ifg" firstAttribute="leading" secondItem="f1b-rL-HpR" secondAttribute="leading" constant="16" id="J9a-Ob-o26"/>
+                            <constraint firstItem="f1b-rL-HpR" firstAttribute="trailing" secondItem="2A9-6c-ErA" secondAttribute="trailing" constant="16" id="QKQ-YK-rc1"/>
+                            <constraint firstItem="2A9-6c-ErA" firstAttribute="top" secondItem="ENR-fb-tVV" secondAttribute="bottom" constant="16" id="SwY-os-7Tz"/>
+                            <constraint firstItem="f1b-rL-HpR" firstAttribute="trailing" secondItem="ENR-fb-tVV" secondAttribute="trailing" constant="16" id="bvp-4X-NRk"/>
+                            <constraint firstItem="f1b-rL-HpR" firstAttribute="trailing" secondItem="liq-WP-Ifg" secondAttribute="trailing" constant="16" id="cdz-3W-fn0"/>
+                            <constraint firstItem="ENR-fb-tVV" firstAttribute="leading" secondItem="f1b-rL-HpR" secondAttribute="leading" constant="16" id="oWP-0c-enH"/>
+                            <constraint firstItem="liq-WP-Ifg" firstAttribute="top" secondItem="f1b-rL-HpR" secondAttribute="top" constant="48" id="xT3-bp-wO7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="2A9-6c-ErA" id="BGx-cF-FWZ"/>
+                        <outlet property="titleLabel" destination="liq-WP-Ifg" id="CWk-OF-2pZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uDr-Z7-F5g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.82608695652186" y="-9.375"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
