@@ -13,10 +13,10 @@ extension ReposListViewController: UISearchBarDelegate {
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        
+        preseneter?.searchForRepo(withSearchToken: searchBar.text ?? "")
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
+        preseneter?.searchForRepo(withSearchToken: searchText)
     }
 }

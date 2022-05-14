@@ -19,7 +19,7 @@ class ReposListViewController: UIViewController {
 
     @IBOutlet private weak var listTableView: UITableView!
     
-    internal var preseneter: ReposListPresenterProtocol?
+    var preseneter: ReposListPresenterProtocol?
     private var loadingView: UIView?
     private var errorView: UIView?
     private var searchBar = UISearchBar()
