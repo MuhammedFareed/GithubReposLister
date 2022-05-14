@@ -13,6 +13,7 @@ class RepoTableViewCell: UITableViewCell {
     @IBOutlet private weak var repoNameLabel: UILabel!
     @IBOutlet private weak var repoAuthorNameLabel: UILabel!
     
+    static var identifier = "repoCell"
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -24,15 +25,14 @@ class RepoTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    private func setupStyles() {
-        self.selectionStyle = .none
-        authorImageImageView.layer.cornerRadius = authorImageImageView.bounds.height / 2
-    }
-    
-    private func setupCell(withUIModel uiModel: RepoUIModel) {
+    func setupCell(withUIModel uiModel: RepoUIModelProtocol) {
         repoNameLabel.text = uiModel.repoName
         repoAuthorNameLabel.text = uiModel.authorName
         authorImageImageView.downloadImage(from: uiModel.authorImageLink)
     }
-
+    
+    private func setupStyles() {
+        self.selectionStyle = .none
+        authorImageImageView.layer.cornerRadius = authorImageImageView.bounds.height / 2
+    }
 }

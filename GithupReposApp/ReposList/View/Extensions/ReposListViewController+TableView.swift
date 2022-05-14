@@ -14,7 +14,10 @@ extension ReposListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: RepoTableViewCell.identifier) as! RepoTableViewCell
+        cell.setupCell(withUIModel: preseneter?.repoUIModel(at: indexPath.row) ?? RepoUIModel(repoName: "", authorName: "", authorImageLink: ""))
+        
+        return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
