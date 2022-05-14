@@ -24,4 +24,10 @@ class MainCoordinator: Coordinator {
         repoListViewController.preseneter = repoListPresenter
         navigationController.pushViewController(repoListViewController, animated: true)
     }
+    
+    func showRepoDetails(withUIModel repoUIModel: RepoUIModelProtocol) {
+        let repoDetailsViewController = RepoDetailsViewController.instantiate(fromStoryBoard: StoryboardNames.mainStoryboard)
+        repoDetailsViewController.repoUIModel = repoUIModel
+        navigationController.pushViewController(repoDetailsViewController, animated: true)
+    }
 }
