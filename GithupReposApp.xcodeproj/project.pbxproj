@@ -38,6 +38,7 @@
 		5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */; };
 		5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A329282F2511000DB77E /* StoryboardNames.swift */; };
 		5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */; };
+		5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32E282F295A000DB77E /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+GithupReposApp.swift"; sourceTree = "<group>"; };
 		5732A329282F2511000DB77E /* StoryboardNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardNames.swift; sourceTree = "<group>"; };
 		5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		5732A32E282F295A000DB77E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */,
+				5732A32E282F295A000DB77E /* MainCoordinator.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				5732A310282F183F000DB77E /* ReposRequest.swift in Sources */,
 				5732A32A282F2511000DB77E /* StoryboardNames.swift in Sources */,
 				5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */,
+				5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);
