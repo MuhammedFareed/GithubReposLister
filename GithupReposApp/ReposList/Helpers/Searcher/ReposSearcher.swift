@@ -9,9 +9,11 @@ import Foundation
 
 class ReposSearcher: ReposSearcherProtocol {
     func searchByName(withSearchToken searchToken: String, inRepos repos: [Repo]) -> [Repo] {
-        guard searchToken.count > 2 else {
+        guard searchToken.count >= 2 else {
             return repos
         }
-        return repos
+        return repos.filter({ repo in
+            return (repo.name ?? "").lowercased().contains(searchToken.lowercased())
+        })
     }
 }
