@@ -42,6 +42,7 @@
 		5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */; };
 		5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */; };
 		5732A338282F3326000DB77E /* RepoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A337282F3326000DB77E /* RepoDetailsViewController.swift */; };
+		5732A33B282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardaLoadableProtocol.swift; sourceTree = "<group>"; };
 		5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+GithupReposApp.swift"; sourceTree = "<group>"; };
 		5732A337282F3326000DB77E /* RepoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewController.swift; sourceTree = "<group>"; };
+		5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepoListViewController+UISearchbarDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A30B282F15BF000DB77E /* ReposListViewController+TableView.swift */,
+				5732A33A282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -547,6 +550,7 @@
 				5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */,
 				5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */,
 				5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */,
+				5732A33B282FADFE000DB77E /* RepoListViewController+UISearchbarDelegate.swift in Sources */,
 				5732A2F5282EFB49000DB77E /* APIClientProtocol.swift in Sources */,
 				5732A327282F2200000DB77E /* Collection+GithupReposApp.swift in Sources */,
 			);

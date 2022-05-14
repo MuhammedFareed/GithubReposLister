@@ -43,6 +43,7 @@ class ReposListViewController: UIViewController {
     private func setupSearchBar() {
         searchBar.sizeToFit()
         searchBar.showsCancelButton = true
+        searchBar.delegate = self
         navigationItem.titleView = searchBar
     }
     
