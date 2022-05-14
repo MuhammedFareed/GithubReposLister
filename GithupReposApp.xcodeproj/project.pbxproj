@@ -40,6 +40,7 @@
 		5732A32D282F28ED000DB77E /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */; };
 		5732A32F282F295A000DB77E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A32E282F295A000DB77E /* MainCoordinator.swift */; };
 		5732A332282F29E1000DB77E /* StoryboardaLoadableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */; };
+		5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		5732A32C282F28ED000DB77E /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		5732A32E282F295A000DB77E /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		5732A331282F29E1000DB77E /* StoryboardaLoadableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardaLoadableProtocol.swift; sourceTree = "<group>"; };
+		5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+GithupReposApp.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				5732A326282F2200000DB77E /* Collection+GithupReposApp.swift */,
+				5732A333282F2EA9000DB77E /* UIImageView+GithupReposApp.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 			files = (
 				5732A2F0282EF95A000DB77E /* HTTPMethods.swift in Sources */,
 				5732A31F282F1D2D000DB77E /* RepositoryFailureError.swift in Sources */,
+				5732A334282F2EA9000DB77E /* UIImageView+GithupReposApp.swift in Sources */,
 				5732A2F9282F0D4B000DB77E /* ReposAPIClient.swift in Sources */,
 				5732A302282F1030000DB77E /* ReposListViewController.swift in Sources */,
 				5732A305282F1261000DB77E /* RepoTableViewCell.swift in Sources */,
