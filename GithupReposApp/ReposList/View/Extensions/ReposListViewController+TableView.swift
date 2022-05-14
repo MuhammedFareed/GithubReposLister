@@ -21,6 +21,6 @@ extension ReposListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        preseneter?.showDetailsOfRepo(at: indexPath.row)
     }
 }
