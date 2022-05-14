@@ -11,6 +11,7 @@ import UIKit
 class ReposListPresenter: ReposListPresenterProtocol {
     var view: ReposListView?
     var repo: RepoRepositoryProtocol?
+    var searcher: ReposSearcherProtocol?
     weak var coordinator: MainCoordinator?
     
     private var reposData: [Repo] = []
@@ -39,6 +40,10 @@ class ReposListPresenter: ReposListPresenterProtocol {
     
     func showDetailsOfRepo(at index: Int) {
         coordinator?.showRepoDetails(withUIModel: repoUIModel(at: index))
+    }
+    
+    func searchForRepo(withSearchToken token: String) {
+        
     }
     
     private func createUIModelsFor(repos: [Repo]) {
