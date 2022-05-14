@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import UIKit
 
 class ReposListPresenter: ReposListPresenterProtocol {
     var view: ReposListView?
     var repo: RepoRepositoryProtocol?
+    weak var coordinator: MainCoordinator?
     
     private var reposData: [Repo] = []
     private var reposUIModels: [RepoUIModelProtocol] = []
@@ -36,7 +38,7 @@ class ReposListPresenter: ReposListPresenterProtocol {
     }
     
     func showDetailsOfRepo(at index: Int) {
-        
+        coordinator?.showRepoDetails(withUIModel: repoUIModel(at: index))
     }
     
     private func createUIModelsFor(repos: [Repo]) {

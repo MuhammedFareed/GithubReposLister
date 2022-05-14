@@ -8,6 +8,7 @@
 import Foundation
 
 protocol ReposListPresenterProtocol: AnyObject {
+    var coordinator: MainCoordinator? { get set }
     var view: ReposListView? { get set }
     var repo: RepoRepositoryProtocol? { get set }
     func fetchReposList()

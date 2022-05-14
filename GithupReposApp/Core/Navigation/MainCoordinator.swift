@@ -22,6 +22,7 @@ class MainCoordinator: Coordinator {
         let repoListViewController = ReposListViewController.instantiate(fromStoryBoard: StoryboardNames.mainStoryboard)
         repoListPresenter.view = repoListViewController
         repoListViewController.preseneter = repoListPresenter
+        repoListPresenter.coordinator = self
         navigationController.pushViewController(repoListViewController, animated: true)
     }
     
